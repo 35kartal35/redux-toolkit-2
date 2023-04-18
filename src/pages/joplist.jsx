@@ -25,12 +25,12 @@ const Joplist = () => {
     return (
         <>
             <Filter />
-            <h3 className="job-count"> {state.jops.length} İş BUlundu</h3>
+            <h3 className="job-count"> {state.filtredJops.length} İş BUlundu</h3>
             <section className="list-section">
                 {!state.initialized ? (
                     <p>Loading....</p>
                 ) : (
-                    state.jops.map((job) => (
+                    state.filtredJops.map((job) => (
                         <div key={job.id} className="job-card">
                             {/* kartın üst kısmı */}
                             <div className="head">
