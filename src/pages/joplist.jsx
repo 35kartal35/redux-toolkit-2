@@ -28,7 +28,7 @@ const Joplist = () => {
                 {!state.initialized ? (
                     <p>Loading....</p>
                 ) : (
-                    state.map((job) => (
+                    state.jops.map((job) => (
                         <div key={job.id} className="job-card">
                             {/* kartın üst kısmı */}
                             <div className="head">

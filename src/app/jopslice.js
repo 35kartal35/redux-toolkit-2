@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
     jops: [],
     initialized: false,
-}
+};
 
 const jopSlice = createSlice({
     name: "jopSlice",
