@@ -5,8 +5,8 @@ const initialState = {
     initialized: false,
 }
 
-const JopSlice = createSlice({
-    name: "jopslice",
+const jopSlice = createSlice({
+    name: "jopSlice",
     initialState,
     reducers: {
         setJops: (state, action) => {
@@ -17,5 +17,5 @@ const JopSlice = createSlice({
     },
 });
 
-export const { setJops } = JopSlice.actions;
-export default JopSlice.reducer; 
+export const { setJops, addJop } = jopSlice.actions;
+export default jopSlice.reducer; 
