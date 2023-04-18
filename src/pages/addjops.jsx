@@ -1,8 +1,13 @@
 
+import axios from 'axios';
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom';
+import { ToastContainer, toast } from 'react-toastify';
 
+import 'react-toastify/dist/ReactToastify.css';
 
 const Addjops = () => {
+    const navigate = useNavigate();
 
     const [formState, setFormState] = useState({
         id: +(new Date().getTime()),
@@ -15,7 +20,16 @@ const Addjops = () => {
     })
 
     const handleSubmit = () => {
-        console.log('>>handlesubmit', formState)
+        if (!formState.position || !formState.company || !formState.location) {
+
+            toast.warn("Bütün alanları doldurun !", {
+                autoClose: 3000,
+
+            })
+            return;
+        }
+
+        axios.post('http://localhost:3004/jops', formState).then(() => navigate('/'))
     }
 
     return (
@@ -59,6 +73,7 @@ const Addjops = () => {
 
                 <button onClick={handleSubmit}>Ekle</button>
             </div>
+            <ToastContainer />
         </section>
     )
 }

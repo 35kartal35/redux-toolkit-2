@@ -3,6 +3,7 @@ import { useEffect } from 'react'
 import axios from 'axios'
 import { useSelector, useDispatch } from 'react-redux'
 import { setJops } from '../app/jopSlice'
+import Filter from '../components/filter'
 
 
 const Joplist = () => {
@@ -23,6 +24,7 @@ const Joplist = () => {
 
     return (
         <>
+            <Filter />
             <h3 className="job-count"> {state.jops.length} İş BUlundu</h3>
             <section className="list-section">
                 {!state.initialized ? (
