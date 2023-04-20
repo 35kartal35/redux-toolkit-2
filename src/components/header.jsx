@@ -3,11 +3,11 @@ import { Link } from "react-router-dom"
 const Header = () => {
     return (
         <header>
-            <h2>işin hazır</h2>
+            <h2>İŞ ARAMA PORTALI</h2>
             <div>
-                <Link to={'/'}>iş listesi
+                <Link to={'/'}>İŞLER
                 </Link>
-                <Link to={'/add-jop'}>İş Ekle</Link>
+                <Link to={'/add-jop'}>İŞ EKLE</Link>
             </div>
         </header>
     );

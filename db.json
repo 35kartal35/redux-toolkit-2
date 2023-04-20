@@ -5,63 +5,45 @@
       "position": "Frontend Developer",
       "company": "Udemig",
       "location": "İzmir/Bayraklı",
-      "status": "Devam Ediyor",
+      "status": "Reddedildi",
       "type": "Tam Zamanlı",
-      "date": "10/1/2023"
+      "date": "15/2/2023"
     },
     {
-      "id": 1,
-      "position": "Frontend Developer",
-      "company": "Udemig",
+      "id": 2,
+      "position": "React Developer",
+      "company": "Mim Code",
+      "location": "İstanbul/Şişli",
+      "status": "Devam Ediyor",
+      "type": "Mülakat",
+      "date": "19/3/2023"
+    },
+    {
+      "id": 3,
+      "position": "Node Js. Developer",
+      "company": "Symple Deliver",
+      "location": "İzmir/Alsancak",
+      "status": "Devam Ediyor",
+      "type": "Devam Ediyor",
+      "date": "9/4/2023"
+    },
+    {
+      "id": 4,
+      "position": "React Native Developer",
+      "company": "Atolye35",
       "location": "İzmir/Bayraklı",
-      "status": "Devam Ediyor",
-      "type": "Tam Zamanlı",
-      "date": "10/1/2023"
-    },
-    {
-      "id": 1,
-      "position": "Frontend Developer",
-      "company": "Udemig",
-      "location": "İzmir/Bayraklı",
-      "status": "Devam Ediyor",
-      "type": "Tam Zamanlı",
-      "date": "10/1/2023"
-    },
-    {
-      "id": 1,
-      "position": "Frontend Developer",
-      "company": "Udemig",
-      "location": "İzmir/Bayraklı",
-      "status": "Devam Ediyor",
-      "type": "Tam Zamanlı",
-      "date": "10/1/2023"
-    },
-    {
-      "id": 1,
-      "position": "Frontend Developer",
-      "company": "Udemig",
-      "location": "İzmir/Bayraklı",
-      "status": "Devam Ediyor",
-      "type": "Tam Zamanlı",
-      "date": "10/1/2023"
-    },
-    {
-      "id": 1681844797781,
-      "position": "frontend",
-      "company": "symple deliver",
-      "location": "Alsancak",
-      "status": "Devam Ediyor",
-      "type": "Tam Zaman",
-      "date": "18.04.2023"
-    },
-    {
-      "id": 1681845134834,
-      "position": "fff",
-      "company": "fff",
-      "location": "fff",
       "status": "Mülakat",
-      "type": "Tam Zaman",
-      "date": "18.04.2023"
+      "type": "Tam Zamanlı",
+      "date": "20/2/2023"
+    },
+    {
+      "id": 5,
+      "position": "React/Frontend Developer",
+      "company": "Aselsan",
+      "location": "Ankara",
+      "status": "Mülakat",
+      "type": "Mülakat",
+      "date": "13/2/2023"
     }
   ]
 }

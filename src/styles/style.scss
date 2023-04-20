@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #242424;
+    background-color: #23678f;
     color: white;
     font-family: 'Inter';
     font-weight: 400;
@@ -14,7 +14,7 @@ body {
 
 a {
     font-weight: 500;
-    color: #646cff;
+    color: #c5c6da;
     text-decoration: none;
 }
 
@@ -143,7 +143,7 @@ header {
 .add-sec {
     max-width: 700px;
     margin: 300px auto;
-    box-shadow: rebeccapurple 0 22px 70px 4px;
+    box-shadow: rgb(183, 142, 224) 0 22px 70px 4px;
     padding: 20px;
 
     .inputs {
@@ -176,4 +176,10 @@ header {
     button {
         min-height: 45px;
     }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
